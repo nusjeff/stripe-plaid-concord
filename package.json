@@ -1,0 +1,22 @@
+{
+  "name": "stripe-plaid-concord",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.3",
+    "express": "~4.16.1",
+    "morgan": "~1.9.1",
+    "node-json-db": "^2.1.3",
+    "stripe": "^11.6.0"
+  },
+  "devDependencies": {
+    "@types/stripe-v3": "^3.1.27",
+    "nodemon": "^2.0.20"
+  }
+}
